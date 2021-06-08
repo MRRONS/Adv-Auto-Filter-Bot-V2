@@ -38,7 +38,27 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Movie REQ 💥', url="https://t.me/filmcityhd1"
+                                ),
+                            InlinekeyboardButton
+                                (
+                                    '♻️Webseries♻️', url="https://t.me/fchweb"
+                                )
+                            InlinekeyboardButton
+                                (
+                                    'Animes', url="https://t.me/fchanime'
+                                ),
+                            InlinekeyboardButton
+                                (
+                                    'Group', url="https://t.me/fchchatgroup'
+                                )
+                            InlinekeyboardButton
+                                ( 
+                                    'SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1'
+                                ),
+                            InlinekeyboardButton
+                                (
+                                    'CLOSE 🔐', callback_data='close'
                                 )
                         ]
                     ]
@@ -57,8 +77,29 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Movie REQ', url="https://t.me/filmcityhd1"
+                                ),
+                            InlinekeyboardButton
+                                (
+                                    'Webseries', url="https://t.me/fchweb"
                                 )
+                            InlinekeyboardButton
+                                (
+                                    'Animes', url="https://t.me/fchanime'
+                                ),
+                            InlinekeyboardButton
+                                (
+                                    'Group', url="https://t.me/fchchatgroup'
+                                )
+                            InlinekeyboardButton
+                                ( 
+                                    'SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1'
+                                ),
+                            InlinekeyboardButton
+                                (
+                                    'CLOSE 🔐', callback_data='close'
+                                )
+
                         ]
                     ]
                 )
@@ -76,7 +117,27 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Movie REQ', url="https://t.me/filmcityhd1"
+                                )
+                            InlinekeyboardButton
+                                (
+                                    'Webseries', url="https://t.me/fchweb"
+                                )
+                            InlinekeyboardButton
+                                (
+                                    'Animes', url="https://t.me/fchanime'
+                                )
+                            InlinekeyboardButton
+                                (
+                                    'Group', url="https://t.me/fchchatgroup'
+                                )
+                            InlinekeyboardButton
+                                ( 
+                                    'SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1'
+                                ),
+                            InlinekeyboardButton
+                                (
+                                    'CLOSE 🔐', callback_data='close'
                                 )
                         ]
                     ]
