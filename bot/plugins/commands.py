@@ -46,11 +46,11 @@ async def start(bot, update):
                                 )
                             InlinekeyboardButton
                                 (
-                                    'Animes', url="https://t.me/fchanime'
+                                    '♻️Animes♻️', url="https://t.me/fchanime'
                                 ),
                             InlinekeyboardButton
                                 (
-                                    'Group', url="https://t.me/fchchatgroup'
+                                    'Group✨, url="https://t.me/fchchatgroup'
                                 )
                             InlinekeyboardButton
                                 ( 
@@ -77,19 +77,19 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Movie REQ', url="https://t.me/filmcityhd1"
+                                    'Movie REQ💥', url="https://t.me/filmcityhd1"
                                 ),
                             InlinekeyboardButton
                                 (
-                                    'Webseries', url="https://t.me/fchweb"
+                                    '♻️Webseries♻️', url="https://t.me/fchweb"
                                 )
                             InlinekeyboardButton
                                 (
-                                    'Animes', url="https://t.me/fchanime'
+                                    '♻️Animes♻️', url="https://t.me/fchanime'
                                 ),
                             InlinekeyboardButton
                                 (
-                                    'Group', url="https://t.me/fchchatgroup'
+                                    'Group✨', url="https://t.me/fchchatgroup'
                                 )
                             InlinekeyboardButton
                                 ( 
@@ -117,19 +117,19 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Movie REQ', url="https://t.me/filmcityhd1"
+                                    'Movie REQ💥', url="https://t.me/filmcityhd1"
                                 )
                             InlinekeyboardButton
                                 (
-                                    'Webseries', url="https://t.me/fchweb"
+                                    '♻️Webseries♻️', url="https://t.me/fchweb"
                                 )
                             InlinekeyboardButton
                                 (
-                                    'Animes', url="https://t.me/fchanime'
+                                    '♻️Animes♻️', url="https://t.me/fchanime'
                                 )
                             InlinekeyboardButton
                                 (
-                                    'Group', url="https://t.me/fchchatgroup'
+                                    'Group✨', url="https://t.me/fchchatgroup'
                                 )
                             InlinekeyboardButton
                                 ( 
