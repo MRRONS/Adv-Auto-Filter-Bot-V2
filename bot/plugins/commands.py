@@ -113,62 +113,48 @@ async def start(bot, update):
                 caption = caption,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
-                    [
-                        [
-                            InlineKeyboardButton
-                                (
-                                    'Movie REQ💥', url="https://t.me/filmcityhd1"
-                                ),
-                            InlinekeyboardButton
-                                (
-                                    '♻️Webseries♻️', url="https://t.me/fchweb"
-                                ),
-                            InlinekeyboardButton
-                                (
-                                    '♻️Animes♻️', url="https://t.me/fchanime"
-                                ),
-                            InlinekeyboardButton
-                                (
-                                    'Group✨', url="https://t.me/fchchatgroup"
-                                ),
-                            InlinekeyboardButton
-                                ( 
-                                    'SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1"
-                                ),
-                            InlinekeyboardButton
-                                (
-                                    'CLOSE 🔐', callback_data='close'
-                                )
-                        ]
-                    ]
-                )
-            )
+            [
+                [
+                    InlineKeyboardButton('SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1")
+                ],
+                [
+                    InlineKeyboardButton('Movie REQ💥', url="https://t.me/filmcityhd1"),
+                    InlineKeyboardButton('♻️Webseries♻️', url="https://t.me/fchweb")
+                ],
+                [
+                    InlineKeyboardButton('Group✨', url="https://t.me/fchchatgroup"),
+                    InlineKeyboardButton('♻️Animes♻️', url="https://t.me/fchanime")
+                ]
+            ]
+        )
+    )
 
         else:
             print(file_type)
         
         return
 
-    buttons = [[
-        InlineKeyboardButton('Movie REQ', url='https://t.me/filmcityhd1'),
-        InlineKeyboardButton('Webseries', url ='https://t.me/fchweb')
-    ],[
-        InlineKeyboardButton('animes', url='https://t.me/fchanime'),
-        InlinekeyboardButton('Group', url='https://t.me/fchchatgroup')
-    ],[
-
-        InlineKeyboardButton('Help ⚙', callback_data="help")
-    ]] 
-    
-    reply_markup = InlineKeyboardMarkup(buttons)
-    
     await bot.send_photo(
         chat_id=update.chat.id,
         photo = 'https://telegra.ph/file/2e9d20f371bb1ac305015.jpg',
         caption=Translation.START_TEXT.format(
                 update.from_user.first_name),
-        reply_markup=reply_markup,
-        parse_mode="html",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                        InlineKeyboardButton("⚙️𝙷𝙴𝙻𝙿", callback_data = "help")
+                ],
+                [
+                    InlineKeyboardButton('Movie REQ', url='https://t.me/filmcityhd1'),
+                    InlineKeyboardButton('Webseries', url ='https://t.me/fchweb')
+                ],
+                [
+                    InlineKeyboardButton('animes', url='https://t.me/fchanime'),
+                    InlineKeyboardButton('Group', url='https://t.me/fchchatgroup')
+                ]
+            ]
+        ), 
+        parse_mode="html", 
         reply_to_message_id=update.message_id
     )
 
