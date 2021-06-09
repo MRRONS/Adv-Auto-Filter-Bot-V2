@@ -151,10 +151,10 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('Movie REQ', url='https://t.me/filmcityhd1'),
-        InlineKeyboardButton('Webseries', url ='https://t.me/fchweb')
+        InlineKeyboardButton('Webseries', url ='https://t.me/fchweb'),
     ],[
         InlineKeyboardButton('animes', url='https://t.me/fchanime'),
-        InlinekeyboardButton('Group',  url='https://t.me/fchchatgroup')
+        InlinekeyboardButton('Group',  url='https://t.me/fchchatgroup'),
     ],[
 
         InlineKeyboardButton('Help ⚙', callback_data="help")
