@@ -34,36 +34,21 @@ async def start(bot, update):
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
-                    [
-                        [
-                            InlineKeyboardButton
-                                (
-                                    'Movie REQ 💥', url="https://t.me/filmcityhd1"
-                                ),
-                            InlinekeyboardButton
-                                (
-                                    '♻️Webseries♻️', url="https://t.me/fchweb"
-                                ),
-                            InlinekeyboardButton
-                                (
-                                    '♻️Animes♻️', url="https://t.me/fchanime"
-                                ),
-                            InlinekeyboardButton
-                                (
-                                    'Group✨', url="https://t.me/fchchatgroup"
-                                ),
-                            InlinekeyboardButton
-                                ( 
-                                    'SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1"
-                                ),
-                            InlinekeyboardButton
-                                (
-                                    'CLOSE 🔐', callback_data='close'
-                                )
-                        ]
-                    ]
-                )
-            )
+            [
+                [
+                    InlineKeyboardButton('SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1")
+                ],
+                [
+                    InlineKeyboardButton('Movie REQ💥', url="https://t.me/filmcityhd1"),
+                    InlineKeyboardButton('♻️Webseries♻️', url="https://t.me/fchweb")
+                ],
+                [
+                    InlineKeyboardButton('Group✨', url="https://t.me/fchchatgroup"),
+                    InlineKeyboardButton('♻️Animes♻️', url="https://t.me/fchanime")
+                ]
+            ]
+        )
+    )
 
         elif file_type == "video":
         
@@ -73,37 +58,21 @@ async def start(bot, update):
                 caption = caption,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
-                    [
-                        [
-                            InlineKeyboardButton
-                                (
-                                    'Movie REQ💥', url="https://t.me/filmcityhd1"
-                                ),
-                            InlinekeyboardButton
-                                (
-                                    '♻️Webseries♻️', url="https://t.me/fchweb"
-                                ),
-                            InlinekeyboardButton
-                                (
-                                    '♻️Animes♻️', url="https://t.me/fchanime"
-                                ),
-                            InlinekeyboardButton
-                                (
-                                    'Group✨', url="https://t.me/fchchatgroup"
-                                ),
-                            InlinekeyboardButton
-                                ( 
-                                    'SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1"
-                                ),
-                            InlinekeyboardButton
-                                (
-                                    'CLOSE 🔐', callback_data='close'
-                                )
-
-                        ]
-                    ]
-                )
-            )
+            [
+                [
+                    InlineKeyboardButton('SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1")
+                ],
+                [
+                    InlineKeyboardButton('Movie REQ💥', url="https://t.me/filmcityhd1"),
+                    InlineKeyboardButton('♻️Webseries♻️', url="https://t.me/fchweb")
+                ],
+                [
+                    InlineKeyboardButton('Group✨', url="https://t.me/fchchatgroup"),
+                    InlineKeyboardButton('♻️Animes♻️', url="https://t.me/fchanime")
+                ]
+            ]
+        )
+    )
             
         elif file_type == "audio":
         
