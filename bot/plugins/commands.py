@@ -36,14 +36,14 @@ async def start(bot, update):
                 reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1")
+                    InlineKeyboardButton('𝑺𝑯𝑨𝑹𝑬🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1")
                 ],
                 [
-                    InlineKeyboardButton('Movie REQ💥', url="https://t.me/filmcityhd1"),
-                    InlineKeyboardButton('♻️Webseries♻️', url="https://t.me/fchweb")
+                    InlineKeyboardButton('💥𝐌𝐎𝐕𝐈𝐄 𝐑𝐄𝐐💥', url="https://t.me/filmcityhd1"),
+                    InlineKeyboardButton('♻️𝐖𝐄𝐁𝐒𝐄𝐑𝐈𝐄𝐒♻️', url="https://t.me/fchweb")
                 ],
                 [
-                    InlineKeyboardButton('Group✨', url="https://t.me/fchchatgroup"),
+                    InlineKeyboardButton('🔱𝐆𝐑𝐎𝐔𝐏🔱', url="https://t.me/fchchatgroup"),
                     InlineKeyboardButton('♻️Animes♻️', url="https://t.me/fchanime")
                 ]
             ]
@@ -60,15 +60,15 @@ async def start(bot, update):
                 reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1")
+                    InlineKeyboardButton('𝑺𝑯𝑨𝑹𝑬🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1")
                 ],
                 [
-                    InlineKeyboardButton('Movie REQ💥', url="https://t.me/filmcityhd1"),
-                    InlineKeyboardButton('♻️Webseries♻️', url="https://t.me/fchweb")
+                    InlineKeyboardButton('💥𝐌𝐎𝐕𝐈𝐄 𝐑𝐄𝐐💥', url="https://t.me/filmcityhd1"),
+                    InlineKeyboardButton('♻️𝐖𝐄𝐁𝐒𝐄𝐑𝐈𝐄𝐒♻️', url="https://t.me/fchweb")
                 ],
                 [
-                    InlineKeyboardButton('Group✨', url="https://t.me/fchchatgroup"),
-                    InlineKeyboardButton('♻️Animes♻️', url="https://t.me/fchanime")
+                    InlineKeyboardButton('🔱𝐆𝐑𝐎𝐔𝐏🔱', url="https://t.me/fchchatgroup"),
+                    InlineKeyboardButton('♻️𝐀𝐍𝐈𝐌𝐄♻️', url="https://t.me/fchanime")
                 ]
             ]
         )
@@ -84,15 +84,15 @@ async def start(bot, update):
                 reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1")
+                    InlineKeyboardButton('𝑺𝑯𝑨𝑹𝑬 🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1")
                 ],
                 [
-                    InlineKeyboardButton('Movie REQ💥', url="https://t.me/filmcityhd1"),
-                    InlineKeyboardButton('♻️Webseries♻️', url="https://t.me/fchweb")
+                    InlineKeyboardButton('💥𝐌𝐎𝐕𝐈𝐄 𝐑𝐄𝐐💥', url="https://t.me/filmcityhd1"),
+                    InlineKeyboardButton('♻️𝐖𝐄𝐁𝐒𝐄𝐑𝐈𝐄𝐒♻️', url="https://t.me/fchweb")
                 ],
                 [
-                    InlineKeyboardButton('Group✨', url="https://t.me/fchchatgroup"),
-                    InlineKeyboardButton('♻️Animes♻️', url="https://t.me/fchanime")
+                    InlineKeyboardButton('🔱𝐆𝐑𝐎𝐔𝐏🔱', url="https://t.me/fchchatgroup"),
+                    InlineKeyboardButton('♻️𝐀𝐍𝐈𝐌𝐄♻️', url="https://t.me/fchanime")
                 ]
             ]
         )
@@ -112,12 +112,12 @@ async def start(bot, update):
             [
                 
                 [
-                    InlineKeyboardButton('MOVIE REQ 💥', url='https://t.me/filmcityhd1'),
-                    InlineKeyboardButton('♻️WEBSERIES♻️', url ='https://t.me/fchweb')
+                    InlineKeyboardButton('💥𝐌𝐎𝐕𝐈𝐄 𝐑𝐄𝐐💥', url='https://t.me/filmcityhd1'),
+                    InlineKeyboardButton('♻️𝐖𝐄𝐁𝐒𝐄𝐑𝐈𝐄𝐒♻️', url ='https://t.me/fchweb')
                 ],
                 [
-                    InlineKeyboardButton('♻️ANIME♻️', url='https://t.me/fchanime'),
-                    InlineKeyboardButton('GROUP💫', url='https://t.me/fchchatgroup')
+                    InlineKeyboardButton('♻️𝐀𝐍𝐈𝐌𝐄♻️', url='https://t.me/fchanime'),
+                    InlineKeyboardButton('🔱𝐆𝐑𝐎𝐔𝐏🔱', url='https://t.me/fchchatgroup')
                 ]
             ]
         ), 
