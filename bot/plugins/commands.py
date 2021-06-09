@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption ="❤️ 𝚃𝚑𝚊𝚗𝚔𝚢𝚘𝚞 𝙵𝚘𝚛 𝚄𝚜𝚒𝚗𝚐 𝙾𝚞𝚛 𝚂𝚎𝚛𝚟𝚒𝚌𝚎 𝙿𝚕𝚎𝚊𝚜𝚎 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝚄𝚜 𝙱𝚢 𝚂𝚑𝚊𝚛𝚒𝚗𝚐 𝙾𝚞𝚛 𝙲𝚑𝚊𝚗𝚗𝚎𝚕/𝙶𝚛𝚘𝚞𝚙 𝙻𝚒𝚗𝚔 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙵𝚛𝚒𝚎𝚗𝚍𝚜 \n\n❁𝕁𝕠𝕚𝕟 𝕆𝕦𝕣 ℂ𝕙𝕒𝕟𝕟𝕖𝕝𝕤❁  \n\n⟱⟱⟱⟱⟱⟱⟱⟱⟱⟱⟱⟱  \n📌𝕮𝖍𝖆𝖓𝖓𝖊𝖑: @fchweb➻ \n📌𝕮𝖍𝖆𝖓𝖓𝖊𝖑 : @fchanime➻ \n👥𝕲𝖗𝖔𝖚𝖕 : @filmcityhd1 ➻ \n👥𝕲𝖗𝖔𝖚𝖕 : @fchchatgroup",
+                caption ="❤️ 𝚃𝚑𝚊𝚗𝚔𝚢𝚘𝚞 𝙵𝚘𝚛 𝚄𝚜𝚒𝚗𝚐 𝙾𝚞𝚛 𝚂𝚎𝚛𝚟𝚒𝚌𝚎 𝙿𝚕𝚎𝚊𝚜𝚎 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝚄𝚜 𝙱𝚢 𝚂𝚑𝚊𝚛𝚒𝚗𝚐 𝙾𝚞𝚛 𝙲𝚑𝚊𝚗𝚗𝚎𝚕/𝙶𝚛𝚘𝚞𝚙 𝙻𝚒𝚗𝚔 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙵𝚛𝚒𝚎𝚗𝚍𝚜 \n\n❁𝕁𝕠𝕚𝕟 𝕆𝕦𝕣 ℂ𝕙𝕒𝕟𝕟𝕖𝕝𝕤❁  \n\n⟱⟱⟱⟱⟱⟱⟱⟱⟱⟱⟱⟱  \n\n📌𝕮𝖍𝖆𝖓𝖓𝖊𝖑: @fchweb➻ \n📌𝕮𝖍𝖆𝖓𝖓𝖊𝖑 : @fchanime➻ \n👥𝕲𝖗𝖔𝖚𝖕 : @filmcityhd1 ➻ \n👥𝕲𝖗𝖔𝖚𝖕 : @fchchatgroup",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -129,9 +129,6 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
-    ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     
@@ -150,7 +147,6 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
