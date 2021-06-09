@@ -44,7 +44,7 @@ async def start(bot, update):
                 ],
                 [
                     InlineKeyboardButton('🔱𝐆𝐑𝐎𝐔𝐏🔱', url="https://t.me/fchchatgroup"),
-                    InlineKeyboardButton('♻️Animes♻️', url="https://t.me/fchanime")
+                    InlineKeyboardButton('♻️𝐀𝐍𝐈𝐌𝐄♻️', url="https://t.me/fchanime")
                 ]
             ]
         )
