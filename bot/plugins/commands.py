@@ -43,18 +43,18 @@ async def start(bot, update):
                             InlinekeyboardButton
                                 (
                                     '♻️Webseries♻️', url="https://t.me/fchweb"
-                                )
-                            InlinekeyboardButton
-                                (
-                                    '♻️Animes♻️', url="https://t.me/fchanime'
                                 ),
                             InlinekeyboardButton
                                 (
-                                    'Group✨, url="https://t.me/fchchatgroup'
-                                )
+                                    '♻️Animes♻️', url="https://t.me/fchanime"
+                                ),
+                            InlinekeyboardButton
+                                (
+                                    'Group✨', url="https://t.me/fchchatgroup"
+                                ),
                             InlinekeyboardButton
                                 ( 
-                                    'SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1'
+                                    'SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1"
                                 ),
                             InlinekeyboardButton
                                 (
@@ -85,15 +85,15 @@ async def start(bot, update):
                                 )
                             InlinekeyboardButton
                                 (
-                                    '♻️Animes♻️', url="https://t.me/fchanime'
+                                    '♻️Animes♻️', url="https://t.me/fchanime"
                                 ),
                             InlinekeyboardButton
                                 (
-                                    'Group✨', url="https://t.me/fchchatgroup'
-                                )
+                                    'Group✨', url="https://t.me/fchchatgroup"
+                                ),
                             InlinekeyboardButton
                                 ( 
-                                    'SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1'
+                                    'SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1"
                                 ),
                             InlinekeyboardButton
                                 (
@@ -118,22 +118,22 @@ async def start(bot, update):
                             InlineKeyboardButton
                                 (
                                     'Movie REQ💥', url="https://t.me/filmcityhd1"
-                                )
+                                ),
                             InlinekeyboardButton
                                 (
                                     '♻️Webseries♻️', url="https://t.me/fchweb"
-                                )
+                                ),
                             InlinekeyboardButton
                                 (
-                                    '♻️Animes♻️', url="https://t.me/fchanime'
-                                )
+                                    '♻️Animes♻️', url="https://t.me/fchanime"
+                                ),
                             InlinekeyboardButton
                                 (
-                                    'Group✨', url="https://t.me/fchchatgroup'
-                                )
+                                    'Group✨', url="https://t.me/fchchatgroup"
+                                ),
                             InlinekeyboardButton
                                 ( 
-                                    'SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1'
+                                    'SHARE🌐', url="https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1"
                                 ),
                             InlinekeyboardButton
                                 (
