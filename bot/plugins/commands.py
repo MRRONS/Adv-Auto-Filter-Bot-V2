@@ -114,12 +114,12 @@ async def start(bot, update):
                         InlineKeyboardButton("⚙️𝙷𝙴𝙻𝙿", callback_data ='help')
                 ],
                 [
-                    InlineKeyboardButton('Movie REQ', url='https://t.me/filmcityhd1'),
-                    InlineKeyboardButton('Webseries', url ='https://t.me/fchweb')
+                    InlineKeyboardButton('MOVIE REQ 💥', url='https://t.me/filmcityhd1'),
+                    InlineKeyboardButton('♻️WEBSERIES♻️', url ='https://t.me/fchweb')
                 ],
                 [
-                    InlineKeyboardButton('animes', url='https://t.me/fchanime'),
-                    InlineKeyboardButton('Group', url='https://t.me/fchchatgroup')
+                    InlineKeyboardButton('♻️ANIME♻️', url='https://t.me/fchanime'),
+                    InlineKeyboardButton('GROUP💫', url='https://t.me/fchchatgroup')
                 ]
             ]
         ), 
