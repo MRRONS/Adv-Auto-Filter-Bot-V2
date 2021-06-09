@@ -110,9 +110,7 @@ async def start(bot, update):
                 update.from_user.first_name),
         reply_markup=InlineKeyboardMarkup(
             [
-                [
-                        InlineKeyboardButton("⚙️𝙷𝙴𝙻𝙿", callback_data ='help')
-                ],
+                
                 [
                     InlineKeyboardButton('MOVIE REQ 💥', url='https://t.me/filmcityhd1'),
                     InlineKeyboardButton('♻️WEBSERIES♻️', url ='https://t.me/fchweb')
