@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG
+# (c) @AlbertEinsteinTG & NO-ONE-KN0WS-ME
 
-from pyrogram import filters, Client
+from pyrogram import filters,
+from pyrogram import Client as Mai_bOTs
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from bot import Translation # pylint: disable=import-error
 from bot.database import Database # pylint: disable=import-error
-
+from bot import ADMINS
 db = Database()
 
-@Client.on_message(filters.command(["start"]) & filters.private, group=1)
+@Mai_bOTs.on_message(filters.command(["start"]) & filters.private, group=1)
 async def start(bot, update):
     
     try:
@@ -126,7 +127,7 @@ async def start(bot, update):
     )
 
 
-@Client.on_message(filters.command(["help"]) & filters.private, group=1)
+@Mai_bOTs.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
         InlineKeyboardButton('Close 🔐', callback_data='close')
@@ -143,7 +144,7 @@ async def help(bot, update):
     )
 
 
-@Client.on_message(filters.command(["about"]) & filters.private, group=1)
+@Mai_bOTs.on_message(filters.command(["about"]) & filters.private, group=1)
 async def about(bot, update):
     
     buttons = [[
@@ -159,3 +160,26 @@ async def about(bot, update):
         parse_mode="html",
         reply_to_message_id=update.message_id
     )
+
+@Mai_bOTs.on_message(filters.text & ~ filters.command(["start","help"]) & filters.private & ~ filters.me)
+async def note(bot, update):
+    buttons = [[
+        InlineKeyboardButton('🏡𝙼𝙰𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url='https://t.me/MoviE_LinkS_0nlY'),
+        InlineKeyboardButton('📽️𝙼𝙾𝚅𝙸𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url ='https://t.me/BoX_0fFiCe')
+    ],[
+        InlineKeyboardButton('🤔𝙷𝙾𝚆 𝚃𝙾 𝚁𝙴𝚀?', url='https://t.me/MoviE_LinkS_0nlY/5')
+    ],[
+        InlineKeyboardButton('𝚂𝙷𝙰𝚁𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙵𝚁𝙸𝙴𝙽𝙳𝚂😍', url='https://t.me/share/url?url=💯%20𝙽𝙾%201%20𝙼𝙾𝚅𝙸𝙴%20𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙸𝙽𝙶%20𝙶𝚁𝙾𝚄𝙿%20𝙸𝙽%20𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼%20✅%20%0A%0A𝙹𝙾𝙸𝙽%20𝙰𝙽𝙳%20𝚁𝙴𝚀%20𝚈𝙾𝚄𝚁%20𝙵𝙰𝚅𝙾𝚁𝙸𝚃𝙴%20𝙼𝙾𝚅𝙸𝙴𝚂%20𝚁𝙸𝙶𝙷𝚃%20𝙽𝙾𝚆%20%0A%0A💠%20➠%20𝙶𝚁𝙾𝚄𝙿%20:-%20@Mv_Mania%20%0A💠%20➠%20𝙲𝙷𝙰𝙽𝙽𝙴𝙻%20:-%20@BoX_0fFiCe%20%0A💠%20➠%20𝙲𝙷𝙰𝙽𝙽𝙴𝙻%20:-%20@MoviE_LinkS_0nlY')
+  
+    ]]
+    
+    reply_markup = InlineKeyboardMarkup(buttons)
+
+    if update.from_user.id not in ADMINS:
+        await bot.send_message(
+            chat_id=update.chat.id,
+            text="ivide text message kodukku",
+            reply_markup=reply_markup,
+            parse_mode="html",
+            reply_to_message_id=update.message_id
+        )
