@@ -7,7 +7,8 @@ from pyrogram import Client as Mai_bOTs
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from bot import Translation # pylint: disable=import-error
 from bot.database import Database # pylint: disable=import-error
-from bot import ADMINS
+#from bot import ADMINS
+
 db = Database()
 
 @Mai_bOTs.on_message(filters.command(["start"]) & filters.private, group=1)
@@ -175,7 +176,7 @@ async def note(bot, update):
     
     reply_markup = InlineKeyboardMarkup(buttons)
 
-    if update.from_user.id not in ADMINS:
+    #if update.from_user.id not in ADMINS:
         await bot.send_message(
             chat_id=update.chat.id,
             text="ivide text message kodukku",
