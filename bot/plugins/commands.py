@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG & NO-ONE-KN0WS-ME
+# (c) @AlbertEinsteinTG & NO-ONE-KN0WS-ME & MRRONS
 
 from pyrogram import filters
 from pyrogram import Client as Mai_bOTs
@@ -168,7 +168,7 @@ async def note(bot, update):
         InlineKeyboardButton('🏡 WEBSERIES CHANNEL', url='https://t.me/fchweb'),
         InlineKeyboardButton('📽️ ANIME CHANNEL', url ='https://t.me/FCHANIME')
     ],[
-        InlineKeyboardButton('🤔𝙷𝙾𝚆 𝚃𝙾 𝚁𝙴𝚀?', url='https://t.me/wew')
+        InlineKeyboardButton('🤔𝙷𝙾𝚆 𝚃𝙾 𝚁𝙴𝚀?', url='https://t.me/c/1387634315/4')
     ],[
         InlineKeyboardButton('𝚂𝙷𝙰𝚁𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙵𝚁𝙸𝙴𝙽𝙳𝚂😍', url='https://t.me/share/url?url=https%3A//t.me/share/url%3Furl%3Dhttps%253A//t.me/FiLmCiTyHd1')
     ]]
@@ -177,7 +177,7 @@ async def note(bot, update):
     
     await bot.send_message(
         chat_id=update.chat.id,
-        text=" blah blah blah 🙄",
+        text="എന്നെ ഉപയോഗിക്കുന്നതിനു നന്ദി😊.\nനിങ്ങൾക്ക് വേണ്ട പടങ്ങൾ @filmcityhd1 എന്ന ഗ്രൂപ്പിൽ ചോദിച്ചാൽ മാത്രമേ കിട്ടുകയുള്ളൂ.\nഇവിടെ ചോദിച്ചു സമയം കളയണ്ട!🚶\n\nPlease Don't Req For Movies Here.\n Join Our @filmcityhd1 Group And Req Your Movies There...🚶 ",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=update.message_id
