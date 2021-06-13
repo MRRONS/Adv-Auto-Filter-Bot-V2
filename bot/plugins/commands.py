@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # (c) @AlbertEinsteinTG & NO-ONE-KN0WS-ME
 
-from pyrogram import filters,
+from pyrogram import filters
 from pyrogram import Client as Mai_bOTs
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from bot import Translation # pylint: disable=import-error
