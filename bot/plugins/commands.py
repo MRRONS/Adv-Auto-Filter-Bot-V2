@@ -162,24 +162,24 @@ async def about(bot, update):
         reply_to_message_id=update.message_id
     )
 
-@Mai_bOTs.on_message(filters.text & ~ filters.command(["start","help"]) & filters.private & ~ filters.me)
+@Mai_bOTs.on_message(filters.text & ~ filters.command(["start", "help"]) & filters.private & ~ filters.me)
 async def note(bot, update):
     buttons = [[
-        InlineKeyboardButton('🏡𝙼𝙰𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url='https://t.me/MoviE_LinkS_0nlY'),
-        InlineKeyboardButton('📽️𝙼𝙾𝚅𝙸𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url ='https://t.me/BoX_0fFiCe')
+        InlineKeyboardButton('🏡𝙼𝙰𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url='https://t.me/wew'),
+        InlineKeyboardButton('📽️𝙼𝙾𝚅𝙸𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url ='https://t.me/wew')
     ],[
-        InlineKeyboardButton('🤔𝙷𝙾𝚆 𝚃𝙾 𝚁𝙴𝚀?', url='https://t.me/MoviE_LinkS_0nlY/5')
+        InlineKeyboardButton('🤔𝙷𝙾𝚆 𝚃𝙾 𝚁𝙴𝚀?', url='https://t.me/wew')
     ],[
         InlineKeyboardButton('𝚂𝙷𝙰𝚁𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙵𝚁𝙸𝙴𝙽𝙳𝚂😍', url='https://t.me/share/url?url=💯%20𝙽𝙾%201%20𝙼𝙾𝚅𝙸𝙴%20𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙸𝙽𝙶%20𝙶𝚁𝙾𝚄𝙿%20𝙸𝙽%20𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼%20✅%20%0A%0A𝙹𝙾𝙸𝙽%20𝙰𝙽𝙳%20𝚁𝙴𝚀%20𝚈𝙾𝚄𝚁%20𝙵𝙰𝚅𝙾𝚁𝙸𝚃𝙴%20𝙼𝙾𝚅𝙸𝙴𝚂%20𝚁𝙸𝙶𝙷𝚃%20𝙽𝙾𝚆%20%0A%0A💠%20➠%20𝙶𝚁𝙾𝚄𝙿%20:-%20@Mv_Mania%20%0A💠%20➠%20𝙲𝙷𝙰𝙽𝙽𝙴𝙻%20:-%20@BoX_0fFiCe%20%0A💠%20➠%20𝙲𝙷𝙰𝙽𝙽𝙴𝙻%20:-%20@MoviE_LinkS_0nlY')
   
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
-
-     await bot.send_message(
-            chat_id=update.chat.id,
-            text="ivide text message kodukku",
-            reply_markup=reply_markup,
-            parse_mode="html",
-            reply_to_message_id=update.message_id
-        )
+    
+    await bot.send_message(
+        chat_id=update.chat.id,
+        text=" blah blah blah 🙄",
+        reply_markup=reply_markup,
+        parse_mode="html",
+        reply_to_message_id=update.message_id
+    )
