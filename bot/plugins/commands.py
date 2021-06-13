@@ -165,7 +165,7 @@ async def about(bot, update):
 @Mai_bOTs.on_message(filters.text & ~ filters.command(["start", "help"]) & filters.private & ~ filters.me)
 async def note(bot, update):
     buttons = [[
-        InlinekeyboardButton ('MOVIE REQUEST 💥', url='https://t.me/FiLmCiTyHd1')
+        InlinekeyboardButton('MOVIE REQUEST 💥', url='https://t.me/FiLmCiTyHd1')
     ],[
         InlineKeyboardButton('🏡 WEBSERIES CHANNEL', url='https://t.me/fchweb'),
         InlineKeyboardButton('📽️ ANIME CHANNEL', url ='https://t.me/FCHANIME')
