@@ -176,8 +176,7 @@ async def note(bot, update):
     
     reply_markup = InlineKeyboardMarkup(buttons)
 
-    #if update.from_user.id not in ADMINS:
-        await bot.send_message(
+     await bot.send_message(
             chat_id=update.chat.id,
             text="ivide text message kodukku",
             reply_markup=reply_markup,
